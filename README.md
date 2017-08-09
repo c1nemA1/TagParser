@@ -9,7 +9,7 @@ Easy to use PHP class for parsing BBCode-like Tags
 
 Documentation: Look at the source code _(it includes proper PHPDoc headers)_
 
-Easy example:
+Example:
 ```php
 <?php
 
@@ -45,4 +45,15 @@ TagParser\TagParser::addTag([
 ]);
 
 echo TagParser\TagParser::process($text);
+```
+
+Output:
+```html
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ws3gMD8AecQ?&controls=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c?&autoplay=1&controls=0" frameborder="0" allowfullscreen></iframe>
+
+77
+94
+70
 ```
