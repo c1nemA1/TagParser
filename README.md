@@ -1,5 +1,5 @@
 # TagParser
-_Author_: **Dominik "c1nema" Pohl**
+_Author_: **Dominik Pohl**
 
 Easy to use PHP class for parsing BBCode-like Tags
 
